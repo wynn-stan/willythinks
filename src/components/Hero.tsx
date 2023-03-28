@@ -20,7 +20,12 @@ const Hero = () => {
                     <h1 className={`${styles.heroHeadText} text-white w-[250px]`}>
                         <TypeWriterEffect 
                             startDelay={1000}
-                            text="Hi, Winston Here!"
+                            multiText={[
+                                "Hi, Winston Here.",
+                                "Portfolio for your eyes.",
+                                "Design and code pro.",
+                                "My work wows all."
+                             ]}
                             typeSpeed={100}
                             multiTextLoop={true}
                         />

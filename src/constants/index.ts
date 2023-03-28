@@ -45,7 +45,12 @@ const tripguide = "/assets/tripguide.png";
     },
   ];
   
-  const services = [
+interface IService {
+  title: string,
+  icon: string
+}
+
+  const services:IService[] = [
     {
       title: "Web Developer",
       icon: web,
@@ -64,7 +69,7 @@ const tripguide = "/assets/tripguide.png";
     },
   ];
   
-  const technologies = [
+  const tools = [
     {
       name: "HTML 5",
       icon: html,
@@ -119,7 +124,16 @@ const tripguide = "/assets/tripguide.png";
     },
   ];
   
-  const experiences = [
+export interface IExperience {
+  title: string,
+  company_name: string,
+  icon: string,
+  iconBg: string,
+  date: string,
+  points: string[]
+}
+
+  const experiences:IExperience[] = [
     {
       title: "React.js Developer",
       company_name: "Starbucks",
@@ -267,5 +281,5 @@ const tripguide = "/assets/tripguide.png";
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, tools, experiences, testimonials, projects, github };
   

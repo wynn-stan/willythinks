@@ -1,5 +1,7 @@
-const About = () => {
-    return <div>Navbar</div>;
+import { StarsCanvas } from "./Canvas";
+
+const Stars = () => {
+    return <StarsCanvas />;
 }
  
-export default About;
+export default Stars;
