@@ -1,4 +1,3 @@
-import THREE from "three";
 import {Suspense} from "react";
 import { Canvas } from "@react-three/fiber";
 import { useTexture, OrbitControls, Float, Decal, Preload } from "@react-three/drei";

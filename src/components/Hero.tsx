@@ -1,6 +1,6 @@
 import {motion} from "framer-motion";
 //@ts-ignore
-import TypeWriterEffect from "react-typewriter-effect";
+//import TypeWriterEffect from "react-typewriter-effect";
 import ShibaCanvas from "./Canvas/Shiba";
 import {styles} from "../styles";
 
@@ -18,7 +18,7 @@ const Hero = () => {
 
                 <div className="whitespace-normal">
                     <h1 className={`${styles.heroHeadText} text-white w-[250px]`}>
-                        <TypeWriterEffect 
+                        {/* <TypeWriterEffect 
                             startDelay={1000}
                             multiText={[
                                 "Hi, Winston Here.",
@@ -28,7 +28,8 @@ const Hero = () => {
                              ]}
                             typeSpeed={100}
                             multiTextLoop={true}
-                        />
+                        /> */}
+                        <h3>Hi, Winston Here</h3>
                     </h1>
                 </div>
                 </div>
@@ -52,7 +53,7 @@ const Hero = () => {
                             />
                         </div>
                     </a>
-                </div>
+            </div>
 
         </section>
 
